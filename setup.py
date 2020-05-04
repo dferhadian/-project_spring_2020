@@ -6,14 +6,14 @@ SCRIPTS = [str(f) for f in Path('scripts').glob('*program.py')]
 long_description = "some text"
 
 setuptools.setup(
-    name="johns_package",
+    name="get_volumes",
     version="0.0.1",
-    author="Me",
-    author_email="me@example.com",
-    description="A small example package",
+    author="Damien Ferhadian",
+    author_email="dferhadian@egmail.com",
+    description="A package that will calculate the volume of DNA needed to get 700 micro-gram of DNA after Nanodrop measurement",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/packaging_demo",
+    url="https://github.com/dferhadian/-project_spring_2020/tree/master/get_volumes",
     packages=setuptools.find_packages(),
     scripts = SCRIPTS,
     classifiers=[
